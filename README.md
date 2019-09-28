@@ -27,9 +27,6 @@ hexToNumber("0x0");
 hexToNumber("0x1");
 // 1
 
-hexToNumber("0x1");
-// 1
-
 hexToNumber("0x878328");
 // 8880936
 ```
