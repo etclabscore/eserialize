@@ -1,6 +1,6 @@
 {
   "name": "@etclabscore/eserialize",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "This goal if this module is to provide easy functions to serialize and deserialize data for the Ethereum Stack.",
   "main": "build/index.js",
   "publishConfig": {
