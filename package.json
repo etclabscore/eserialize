@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && typedoc --out docs",
     "lint": "tslint --fix -p .",
     "test": "npm run lint && jest --coverage"
   },
@@ -21,7 +21,5 @@
     "tslint": "^5.17.0",
     "typescript": "^3.5.1"
   },
-  "dependencies": {
-    "moment": "^2.24.0"
-  }
+  "dependencies": {}
 }
