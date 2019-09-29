@@ -68,6 +68,45 @@
 					<h1>eserialize</h1>
 				</a>
 				<p>This goal if this module is to provide easy functions to serialize and deserialize data for the Ethereum Stack.</p>
+				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+					<h2>Usage</h2>
+				</a>
+				<pre><code><span class="hljs-built_in">npm</span> install @etclabscore/eserialize --save</code></pre>
+				<a href="#examples" id="examples" style="color: inherit; text-decoration: none;">
+					<h3>Examples</h3>
+				</a>
+				<a href="#serialize" id="serialize" style="color: inherit; text-decoration: none;">
+					<h4>Serialize</h4>
+				</a>
+				<pre><code class="language-javascript"><span class="hljs-keyword">import</span> { stringToHex, dateToHex, numberToHex } <span class="hljs-keyword">from</span> <span class="hljs-string">"@etclabscore/eserialize"</span>;
+
+stringToHex(<span class="hljs-string">"foo"</span>);
+<span class="hljs-comment">// "0x666F6F"</span>
+
+dateToHex(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>(<span class="hljs-string">"2019-09-28T22:47:08.000Z"</span>));
+<span class="hljs-comment">// "0x5d8fe2ec"</span>
+
+numberToHex(<span class="hljs-number">0</span>);
+<span class="hljs-comment">// "0x0"</span></code></pre>
+				<a href="#deserialize" id="deserialize" style="color: inherit; text-decoration: none;">
+					<h4>Deserialize</h4>
+				</a>
+				<pre><code class="language-javascript"><span class="hljs-keyword">import</span> { hexToString, hexToDate, hexToNumber } <span class="hljs-keyword">from</span> <span class="hljs-string">"@etclabscore/eserialize"</span>;
+
+hexToString(<span class="hljs-string">"0x666F6F"</span>);
+<span class="hljs-comment">// "foo"</span>
+
+hexToDate(<span class="hljs-string">"0x5d8fe2ec"</span>).toISOString();
+<span class="hljs-comment">// "2019-09-28T22:47:08.000Z"</span>
+
+hexToNumber(<span class="hljs-string">"0x0"</span>);
+<span class="hljs-comment">// 0</span>
+
+hexToNumber(<span class="hljs-string">"0x1"</span>);
+<span class="hljs-comment">// 1</span>
+
+hexToNumber(<span class="hljs-string">"0x878328"</span>);
+<span class="hljs-comment">// 8880936</span></code></pre>
 				<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
 					<h3>Contributing</h3>
 				</a>
@@ -100,6 +139,24 @@
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="modules/_index_.html">"index"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_datetohex_.html">"serialize/date<wbr>ToHex"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_datetohex_test_.html">"serialize/date<wbr>ToHex.test"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_numbertohex_.html">"serialize/number<wbr>ToHex"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_numbertohex_test_.html">"serialize/number<wbr>ToHex.test"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_stringtohex_.html">"serialize/string<wbr>ToHex"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_serialize_stringtohex_test_.html">"serialize/string<wbr>ToHex.test"</a>
 					</li>
 				</ul>
 			</nav>
