@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/etclabscore/eserialize/compare/1.0.0...1.0.1) (2019-09-29)
+
+
+### Bug Fixes
+
+* add deserialize methods ([8046a06](https://github.com/etclabscore/eserialize/commit/8046a06))
+* add installation and examples to readme ([e8072f1](https://github.com/etclabscore/eserialize/commit/e8072f1))
+* remove dupe example ([7026cc8](https://github.com/etclabscore/eserialize/commit/7026cc8))
+
 # 1.0.0 (2019-09-28)
 
 
