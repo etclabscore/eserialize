@@ -6,7 +6,7 @@ describe("hexToDate", () => {
     expect(hexToString(fstring)).toEqual("asdf");
   });
   it("can convert other hex to string", () => {
-    const fstring = "0x666F6F";
+    const fstring = "0x666f6f";
     expect(hexToString(fstring)).toEqual("foo");
   });
 

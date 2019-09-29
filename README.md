@@ -12,6 +12,23 @@ npm install @etclabscore/eserialize --save
 
 ### Examples
 
+#### Serialize
+
+```javascript
+import { stringToHex, dateToHex, numberToHex } from "@etclabscore/eserialize";
+
+stringToHex("foo");
+// "0x666F6F"
+
+dateToHex(new Date("2019-09-28T22:47:08.000Z"));
+// "0x5d8fe2ec"
+
+numberToHex(0);
+// "0x0"
+```
+
+#### Deserialize
+
 ```javascript
 import { hexToString, hexToDate, hexToNumber } from "@etclabscore/eserialize";
 
