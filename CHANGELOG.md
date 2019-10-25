@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/etclabscore/eserialize/compare/1.0.1...1.0.2) (2019-10-25)
+
+
+### Bug Fixes
+
+* export serialize methods ([bf090ce](https://github.com/etclabscore/eserialize/commit/bf090ce456d1ef4dbeea4166b7aa666a9a8ef887))
+
 ## [1.0.1](https://github.com/etclabscore/eserialize/compare/1.0.0...1.0.1) (2019-09-29)
 
 
