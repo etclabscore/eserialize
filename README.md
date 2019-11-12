@@ -1,6 +1,6 @@
 # eserialize
 
-This goal if this module is to provide easy functions to serialize and deserialize data for the Ethereum Stack.
+This goal of this module is to provide easy functions to serialize and deserialize data for the Ethereum Stack.
 
 
 ## Usage
