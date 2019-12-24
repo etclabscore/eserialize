@@ -13,4 +13,12 @@ describe("hexToDate", () => {
     const fnumber = "0x878328";
     expect(hexToNumber(fnumber)).toEqual(8880936);
   });
+  it("can return a not-number for nothing", () => {
+        const fnumber = "";
+        expect(hexToNumber(fnumber)).toEqual(NaN);
+    });
+  it("should return NaN for bad input", () => {
+        const fnumber = "badnumber";
+        expect(hexToNumber(fnumber)).not.toEqual(2989);
+    });
 });
