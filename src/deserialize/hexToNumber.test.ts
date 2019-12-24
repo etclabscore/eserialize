@@ -1,6 +1,6 @@
 import hexToNumber from "./hexToNumber";
 
-describe("hexToDate", () => {
+describe("hexToNumber", () => {
   it("can convert hex of 0 to number", () => {
     const fnumber = "0x0";
     expect(hexToNumber(fnumber)).toEqual(0);
