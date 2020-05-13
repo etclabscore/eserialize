@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/etclabscore/eserialize/compare/1.1.1...1.1.2) (2020-05-13)
+
+
+### Bug Fixes
+
+* **tsconfig:** revert module back to commonjs ([9ca75d3](https://github.com/etclabscore/eserialize/commit/9ca75d3b711b4e7fb6876da42426948d650845be))
+
 ## [1.1.1](https://github.com/etclabscore/eserialize/compare/1.1.0...1.1.1) (2020-05-13)
 
 
