@@ -22,7 +22,8 @@
       "path": "@qiwi/semantic-release-gh-pages-plugin",
       "msg": "github pages release",
       "src": "docs/",
-      "branch": "gh-pages"
+      "branch": "gh-pages",
+      "pullTagsBranch": ""
     },
     "@semantic-release/npm"
   ],
