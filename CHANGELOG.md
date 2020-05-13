@@ -1,3 +1,22 @@
+# [1.1.0](https://github.com/etclabscore/eserialize/compare/1.0.2...1.1.0) (2020-05-13)
+
+
+### Bug Fixes
+
+* **hexToNumber test:** fix test name ([add2dd1](https://github.com/etclabscore/eserialize/commit/add2dd1fe5217f5314f616454d21da3e5e8ee28b))
+* **hexToString:** fix test name ([84aedc2](https://github.com/etclabscore/eserialize/commit/84aedc2e71445b0efc6de845007fbbfe706076e3))
+* disable babel typechecking ([d0a757f](https://github.com/etclabscore/eserialize/commit/d0a757f6759a185c8ac517890b5d0c6d1d71a548))
+* exports + unused variable ([34db9bc](https://github.com/etclabscore/eserialize/commit/34db9bcd17378fa01f056eec826c97a69b260e7f))
+* typo ([7e67f00](https://github.com/etclabscore/eserialize/commit/7e67f00a5a2a4b41d05802b44e3eeae31b351509))
+* update deps ([7d29e72](https://github.com/etclabscore/eserialize/commit/7d29e7204fbd9d84e35797c294ee8df302fcc1a6))
+* use better example in number test + remove unused var ([0f07dd0](https://github.com/etclabscore/eserialize/commit/0f07dd00925e14f53f595cc38c0f3efefa7ea428))
+
+
+### Features
+
+* add bigint support ([eaf7236](https://github.com/etclabscore/eserialize/commit/eaf72369d873bed8d4a884edffdb721669119704))
+* add options for padding + prefix ([6eb8456](https://github.com/etclabscore/eserialize/commit/6eb8456c6540b50fc522eaaa503d565513dbd12d))
+
 ## [1.0.2](https://github.com/etclabscore/eserialize/compare/1.0.1...1.0.2) (2019-10-25)
 
 
