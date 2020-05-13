@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/etclabscore/eserialize/compare/1.1.0...1.1.1) (2020-05-13)
+
+
+### Bug Fixes
+
+* **.releaserc:** ignore pullTagsBranch ([3fc4be6](https://github.com/etclabscore/eserialize/commit/3fc4be6a0953b37d565b104d0040b7f9420890ef))
+
 # [1.1.0](https://github.com/etclabscore/eserialize/compare/1.0.2...1.1.0) (2020-05-13)
 
 
