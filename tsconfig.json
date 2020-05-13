@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
     "lib": [
       "es2015",
       "dom"
     ],
+    "skipLibCheck": true,
     "declaration": true,
     "outDir": "./build",
     "strict": true,
