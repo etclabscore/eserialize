@@ -5,13 +5,11 @@ describe("numberToHex", () => {
     expect(numberToHex(16)).toEqual("0x10");
   });
   it("can pad", () => {
-    const str = "foo";
-    const pad = 10;
-    expect(numberToHex(16, { padStart: pad })).toEqual("0x0000000010");
+    const pad = 5;
+    expect(numberToHex(16, { padStart: pad })).toEqual("0x00010");
   });
   it("can pad with no 0x prefix", () => {
-    const str = "foo";
-    const pad = 10;
-    expect(numberToHex(16, { padStart: pad, noPrefix: true })).toEqual("0000000010");
+    const pad = 5;
+    expect(numberToHex(16, { padStart: pad, noPrefix: true })).toEqual("00010");
   });
 });
